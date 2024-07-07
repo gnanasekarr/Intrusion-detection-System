@@ -1,0 +1,63 @@
+body{
+  margin: opx;
+  padding: 0px;
+  background-color: aliceblue;
+}
+.heading{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 25px;
+  
+}
+.container{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.form{
+  display: flex;
+  gap: 50px;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 30px;
+}
+.form-left{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-top: 10px;
+}
+.form-right{
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.form-left label{
+  display: inline-block;
+  width: 150;
+}
+.form-right label{
+  display: inline-block;
+  width: 260;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  border-radius: 25px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: aqua;
+}

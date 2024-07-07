@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Intrusion detection system</title>
+  
+  
+</head>
+
+<body>
+
+ <div class="login">
+	<h1>Intrusion Detection system</h1>
+
+    
+    	<input type="number" step="0.01" name="protocol_type" placeholder="protocol_type" required="required" />
+      <input type="number" step="0.01" name="service" placeholder="service" required="required" />
+		  <input type="number" step="0.01" name="src_bytes" placeholder="src_bytes" required="required" />
+      <input type="number" step="0.01" name="dst_bytes" placeholder="dst_bytes" required="required" />
+      <input type="number" step="0.01" name="logged_in" placeholder="logged_in" required="required" />
+      <input type="number" step="0.01" name="count" placeholder="count" required="required" />
+      <input type="number" step="0.01" name="srv_count" placeholder="srv_count" required="required" />
+		  <input type="number" step="0.01" name="srv_diff_host_rate" placeholder="srv_diff_host_rate" required="required" />
+      <input type="number" step="0.01" name="dst_host_count" placeholder="dst_host_count" required="required" />
+      <input type="number" step="0.01" name="dst_host_srv_count" placeholder="dst_host_srv_count" required="required" />
+      <input type="number" step="0.01" name="dst_host_same_src_port_rate" placeholder="dst_host_same_src_port_rate" required="required" />
+      <input type="number" step="0.01" name="dst_host_srv_diff_host_rate" placeholder="dst_host_srv_diff_host_rate" required="required" />
+      <input type="number" step="0.01" name="dst_host_same_srv_port_rate" placeholder="dst_host_same_srv_port_rate" required="required" />
+      <input type="number" step="0.01" name="dst_host_srv_diffhost_rate" placeholder="dst_host_same_srv_port_rate" required="required" />
+      
+
+        <button type="submit" >Predict</button>
+    </form>
+    
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
